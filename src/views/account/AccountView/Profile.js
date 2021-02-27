@@ -5,9 +5,7 @@ import moment from 'moment';
 import {
   Avatar,
   Box,
-  Button,
   Card,
-  CardActions,
   CardContent,
   Divider,
   Typography,
@@ -16,11 +14,11 @@ import {
 
 const user = {
   avatar: '/static/images/avatars/avatar_6.png',
-  city: 'Los Angeles',
-  country: 'USA',
-  jobTitle: 'Senior Developer',
-  name: 'Katarina Smith',
-  timezone: 'GTM-7'
+  city: 'Mississauga',
+  country: 'Canada',
+  jobTitle: 'Volunteer',
+  name: 'John Doe',
+  timezone: 'EST'
 };
 
 const useStyles = makeStyles(() => ({
@@ -72,15 +70,6 @@ const Profile = ({ className, ...rest }) => {
         </Box>
       </CardContent>
       <Divider />
-      <CardActions>
-        <Button
-          color="primary"
-          fullWidth
-          variant="text"
-        >
-          Upload picture
-        </Button>
-      </CardActions>
     </Card>
   );
 };

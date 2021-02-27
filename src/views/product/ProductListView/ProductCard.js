@@ -44,7 +44,7 @@ const ProductCard = ({ className, product, ...rest }) => {
         >
           <Avatar
             alt="Product"
-            src={product.media}
+            src="/static/images/products/vicon.jpg"
             variant="square"
           />
         </Box>

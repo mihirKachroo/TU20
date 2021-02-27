@@ -4,49 +4,49 @@ export default [
   {
     id: uuid(),
     createdAt: '27/03/2019',
-    description: 'Dropbox is a file hosting service that offers cloud storage, file synchronization, a personal cloud.',
+    description: 'Volunteers assist the hospital staff in providing care to patients and help financially by fundraising.',
     media: '/static/images/products/product_1.png',
-    title: 'Dropbox',
+    title: 'Oakville Trafalgar Memorial Hospital',
     totalDownloads: '594'
   },
   {
     id: uuid(),
     createdAt: '31/03/2019',
-    description: 'Medium is an online publishing platform developed by Evan Williams, and launched in August 2012.',
+    description: 'Volunteers are important to Services For Seniors! Volunteers bring positivity, laughter and companionship to brighten the lives of residents, clients and staff.',
     media: '/static/images/products/product_2.png',
-    title: 'Medium Corporation',
+    title: 'Iroquois Ridge Older Adults Centre',
     totalDownloads: '625'
   },
   {
     id: uuid(),
     createdAt: '03/04/2019',
-    description: 'Slack is a cloud-based set of team collaboration tools and services, founded by Stewart Butterfield.',
+    description: 'The Childrens Aid Foundation of Halton is seeking individuals who value the importance of supporting children, youth and families in our community.',
     media: '/static/images/products/product_3.png',
-    title: 'Slack',
+    title: 'Childrens Aid Foundation of Halton',
     totalDownloads: '857'
   },
   {
     id: uuid(),
     createdAt: '04/04/2019',
-    description: 'Lyft is an on-demand transportation company based in San Francisco, California.',
+    description: 'Volunteers play an important role in many library programs. Through its six branches, Oakville Public Library strives to build community by connecting people and ideas.',
     media: '/static/images/products/product_4.png',
-    title: 'Lyft',
+    title: 'Oakville Public Library',
     totalDownloads: '406'
   },
   {
     id: uuid(),
     createdAt: '04/04/2019',
-    description: 'GitHub is a web-based hosting service for version control of code using Git.',
+    description: 'Provide a positive adult role model to a child between the ages of 6 and 15 and develop a friendship with this child through simple, sharing activities.',
     media: '/static/images/products/product_5.png',
-    title: 'GitHub',
+    title: 'Big Brothers Big Sisters of Halton',
     totalDownloads: '835'
   },
   {
     id: uuid(),
     createdAt: '04/04/2019',
-    description: 'Squarespace provides software as a service for website building and hosting. Headquartered in NYC.',
+    description: 'Are you interested in trees and the environment? Do you enjoy being outside in nature? Are you looking to learn new skills and volunteer in a meaningful way? Now is your chance! Help keep our parklands and trails tidy, and ensure our forests stay healthy!',
     media: '/static/images/products/product_6.png',
-    title: 'Squarespace',
+    title: 'Town of Oakville',
     totalDownloads: '835'
   }
 ];

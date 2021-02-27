@@ -12,7 +12,6 @@ import {
   makeStyles
 } from '@material-ui/core';
 import {
-  AlertCircle as AlertCircleIcon,
   BarChart as BarChartIcon,
   Lock as LockIcon,
   Settings as SettingsIcon,
@@ -25,8 +24,8 @@ import NavItem from './NavItem';
 
 const user = {
   avatar: '/static/images/avatars/avatar_6.png',
-  jobTitle: 'Senior Developer',
-  name: 'Katarina Smith'
+  jobTitle: 'Volunteer',
+  name: 'John Doe'
 };
 
 const items = [
@@ -36,14 +35,14 @@ const items = [
     title: 'Dashboard'
   },
   {
-    href: '/app/customers',
+    href: '/app/transactions',
     icon: UsersIcon,
-    title: 'Customers'
+    title: 'Transactions'
   },
   {
-    href: '/app/products',
+    href: '/app/volunteer',
     icon: ShoppingBagIcon,
-    title: 'Products'
+    title: 'Volunteer'
   },
   {
     href: '/app/account',
@@ -65,11 +64,6 @@ const items = [
     icon: UserPlusIcon,
     title: 'Register'
   },
-  {
-    href: '/404',
-    icon: AlertCircleIcon,
-    title: 'Error'
-  }
 ];
 
 const useStyles = makeStyles(() => ({

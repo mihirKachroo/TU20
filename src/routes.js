@@ -17,9 +17,9 @@ const routes = [
     element: <DashboardLayout />,
     children: [
       { path: 'account', element: <AccountView /> },
-      { path: 'customers', element: <CustomerListView /> },
+      { path: 'transactions', element: <CustomerListView /> },
       { path: 'dashboard', element: <DashboardView /> },
-      { path: 'products', element: <ProductListView /> },
+      { path: 'volunteer', element: <ProductListView /> },
       { path: 'settings', element: <SettingsView /> },
       { path: '*', element: <Navigate to="/404" /> }
     ]

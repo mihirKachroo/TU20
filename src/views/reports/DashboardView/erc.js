@@ -3,44 +3,13 @@ import { Typography } from '@material-ui/core';
 import Web3 from 'web3';
 
 async function readOnChainData() {
-  /*   const tokenAddress = '0x5aD31601E31427d596FEE422c1D1cad3c6fF0274';
-  const walconstAddress = '0x28458151eC48491e91022Db4EFe259358F45b30D';
-
-  // The minimum ABI to get ERC20 Token balance
-  const minABI = [
-    {
-      constant: false,
-      inputs: [
-        {
-          name: 'from',
-          type: 'address'
-        },
-        {
-          name: 'tokens',
-          type: 'uint256'
-        },
-        {
-          name: 'token',
-          type: 'address'
-        },
-        {
-          name: 'data',
-          type: 'bytes'
-        }
-      ],
-      name: 'receiveApproval',
-      outputs: [],
-      payable: false,
-      stateMutability: 'nonpayable',
-      type: 'function'
-    }
-  ]; */
-
   const web3 = new Web3(Web3.givenProvider);
   // console.log('here');
   // web3.eth.getAccounts(console.log);
   // web3.eth.getBalance('0x28458151eC48491e91022Db4EFe259358F45b30D').then(console.log);
   console.log('herllo');
+  console.log(web3.currentProvider.selectedAddress);
+  web3.eth.getBalance('0x3Ee4Ec52CfB109CB820c455657C294e0eCBdd003').then(console.log);
   const tokenAddress = '0x9717208d0bbffa0951a4651713402ae62914c606';
   const toAddress = '0x3Ee4Ec52CfB109CB820c455657C294e0eCBdd003';
   const fromAddress = '0x28458151eC48491e91022Db4EFe259358F45b30D';
@@ -48,6 +17,13 @@ async function readOnChainData() {
   const decimals = web3.utils.toBN(2);
   const amount = web3.utils.toBN(3);
   const minABI = [
+    {
+      constant: true,
+      inputs: [{ name: '_owner', type: 'address' }],
+      name: 'balanceOf',
+      outputs: [{ name: 'balance', type: 'uint256' }],
+      type: 'function'
+    },
     // transfer
     {
       constant: false,
@@ -81,6 +57,12 @@ async function readOnChainData() {
     .send({ from: fromAddress })
     .on('transactionHash', (hash) => {
       console.log(hash);
+    });
+  await contract.methods.balanceOf(fromAddress).call()
+    .then((result) => {
+      const res = web3.utils.toBN(result);
+      const res2 = res / 10 ** 2;
+      console.log(res2);
     });
 }
 
