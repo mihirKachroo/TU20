@@ -13,9 +13,6 @@ import {
   makeStyles,
   useTheme
 } from '@material-ui/core';
-import LaptopMacIcon from '@material-ui/icons/LaptopMac';
-import PhoneIcon from '@material-ui/icons/Phone';
-import TabletIcon from '@material-ui/icons/Tablet';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -41,7 +38,7 @@ const TrafficByDevice = ({ className, ...rest }) => {
         hoverBorderColor: colors.common.white
       }
     ],
-    labels: ['Desktop', 'Tablet', 'Mobile']
+    labels: ['Toronto', 'Mississauga', 'Milton']
   };
 
   const options = {
@@ -68,21 +65,18 @@ const TrafficByDevice = ({ className, ...rest }) => {
 
   const devices = [
     {
-      title: 'Desktop',
+      title: 'Toronto',
       value: 63,
-      icon: LaptopMacIcon,
       color: colors.indigo[500]
     },
     {
-      title: 'Tablet',
+      title: 'Mississauga',
       value: 15,
-      icon: TabletIcon,
       color: colors.red[600]
     },
     {
-      title: 'Mobile',
+      title: 'Milton',
       value: 23,
-      icon: PhoneIcon,
       color: colors.orange[600]
     }
   ];
@@ -92,7 +86,7 @@ const TrafficByDevice = ({ className, ...rest }) => {
       className={clsx(classes.root, className)}
       {...rest}
     >
-      <CardHeader title="Traffic by Device" />
+      <CardHeader title="ERC20 TOKEN TYPES" />
       <Divider />
       <CardContent>
         <Box
@@ -111,7 +105,6 @@ const TrafficByDevice = ({ className, ...rest }) => {
         >
           {devices.map(({
             color,
-            icon: Icon,
             title,
             value
           }) => (
@@ -120,7 +113,6 @@ const TrafficByDevice = ({ className, ...rest }) => {
               p={1}
               textAlign="center"
             >
-              <Icon color="action" />
               <Typography
                 color="textPrimary"
                 variant="body1"
