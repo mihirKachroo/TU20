@@ -6,7 +6,6 @@ import {
 } from '@material-ui/core';
 import Page from 'src/components/Page';
 import Results from './Results';
-import Toolbar from './Toolbar';
 import data from './data';
 
 const useStyles = makeStyles((theme) => ({
@@ -28,7 +27,6 @@ const CustomerListView = () => {
       title="Transactions"
     >
       <Container maxWidth={false}>
-        <Toolbar />
         <Box mt={3}>
           <Results customers={customers} />
         </Box>

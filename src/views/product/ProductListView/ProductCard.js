@@ -103,7 +103,7 @@ const ProductCard = ({ className, product, ...rest }) => {
             >
               {product.totalDownloads}
               {' '}
-              Downloads
+              Token Reward
             </Typography>
           </Grid>
         </Grid>

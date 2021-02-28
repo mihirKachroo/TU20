@@ -41,7 +41,7 @@ const TopBar = ({
         </RouterLink>
         <Box flexGrow={1} />
         <Hidden mdDown>
-          <IconButton color="inherit">
+          <IconButton color="inherit" onClick={() => { window.location.href = '/login'; }}>
             <InputIcon />
           </IconButton>
         </Hidden>

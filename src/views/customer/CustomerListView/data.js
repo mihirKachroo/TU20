@@ -65,7 +65,7 @@ export default [
       city: 'Dallas',
       street: '75247'
     },
-    avatarUrl: '/static/images/avatars/avatar_6.png',
+    avatarUrl: '/static/images/avatars/1.jpg',
     createdAt: 1554757200000,
     email: 'joesbakery@bakery.io',
     name: 'Joes Bakery',
