@@ -4,9 +4,9 @@ export default [
   {
     id: uuid(),
     address: {
-      country: 'USA',
-      state: 'West Virginia',
-      city: 'Parkersburg',
+      country: 'Canada',
+      state: 'Ontario',
+      city: 'Oakville',
       street: '2849 Fulton Street'
     },
     avatarUrl: '/static/images/avatars/avatar_3.png',
@@ -18,9 +18,9 @@ export default [
   {
     id: uuid(),
     address: {
-      country: 'USA',
-      state: 'Bristow',
-      city: 'Iowa',
+      country: 'Canada',
+      state: 'Ontario',
+      city: 'Brampton',
       street: '1865  Pleasant Hill Road'
     },
     avatarUrl: '/static/images/avatars/avatar_4.png',
@@ -32,9 +32,9 @@ export default [
   {
     id: uuid(),
     address: {
-      country: 'USA',
-      state: 'Georgia',
-      city: 'Atlanta',
+      country: 'Canada',
+      state: 'Ontario',
+      city: 'Milton',
       street: '4894  Lakeland Park Drive'
     },
     avatarUrl: '/static/images/avatars/avatar_2.png',
@@ -46,10 +46,10 @@ export default [
   {
     id: uuid(),
     address: {
-      country: 'USA',
-      state: 'Ohio',
-      city: 'Dover',
-      street: '4158  Hedge Street'
+      country: 'Canada',
+      state: 'Ontario',
+      city: 'Hamilton',
+      street: '4158 Hedge Street'
     },
     avatarUrl: '/static/images/avatars/avatar_5.png',
     createdAt: 1554930000000,
@@ -60,12 +60,12 @@ export default [
   {
     id: uuid(),
     address: {
-      country: 'USA',
-      state: 'Texas',
-      city: 'Dallas',
-      street: '75247'
+      country: 'Canada',
+      state: 'Ontario',
+      city: 'Missisauga',
+      street: '37 Bleeker St'
     },
-    avatarUrl: '/static/images/avatars/1.jpg',
+    avatarUrl: '/static/images/avatars/avatar_6.png',
     createdAt: 1554757200000,
     email: 'joesbakery@bakery.io',
     name: 'Joes Bakery',
@@ -74,9 +74,9 @@ export default [
   {
     id: uuid(),
     address: {
-      country: 'USA',
-      state: 'California',
-      city: 'Bakerfield',
+      country: 'Canada',
+      state: 'Ontario',
+      city: 'Oakville',
       street: '317 Angus Road'
     },
     avatarUrl: '/static/images/avatars/avatar_1.png',
@@ -88,9 +88,9 @@ export default [
   {
     id: uuid(),
     address: {
-      country: 'USA',
-      state: 'California',
-      city: 'Redondo Beach',
+      country: 'Canada',
+      state: 'Ontario',
+      city: 'Burlington',
       street: '2188  Armbrester Drive'
     },
     avatarUrl: '/static/images/avatars/avatar_7.png',
@@ -102,9 +102,9 @@ export default [
   {
     id: uuid(),
     address: {
-      country: 'USA',
-      state: 'Nevada',
-      city: 'Las Vegas',
+      country: 'Canada',
+      state: 'Ontario',
+      city: 'Hamilton',
       street: '1798  Hickory Ridge Drive'
     },
     avatarUrl: '/static/images/avatars/avatar_8.png',
@@ -116,9 +116,9 @@ export default [
   {
     id: uuid(),
     address: {
-      country: 'USA',
-      state: 'Michigan',
-      city: 'Detroit',
+      country: 'Canada',
+      state: 'Ontario',
+      city: 'Toronto',
       street: '3934  Wildrose Lane'
     },
     avatarUrl: '/static/images/avatars/avatar_9.png',
@@ -130,9 +130,9 @@ export default [
   {
     id: uuid(),
     address: {
-      country: 'USA',
-      state: 'Utah',
-      city: 'Salt Lake City',
+      country: 'Canada',
+      state: 'Ontario',
+      city: 'North York',
       street: '368 Lamberts Branch Road'
     },
     avatarUrl: '/static/images/avatars/avatar_10.png',

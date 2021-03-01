@@ -109,7 +109,7 @@ const Sales = ({ className, ...rest }) => {
             Last 7 days
           </Button>
         )}
-        title="Volunteering Hours From Past Week"
+        title="Recent ERC20 Token Usage"
       />
       <Divider />
       <CardContent>
