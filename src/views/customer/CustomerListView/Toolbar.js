@@ -24,7 +24,7 @@ async function readOnChainData(aAddress) {
   const web3 = new Web3(Web3.givenProvider);
   web3.eth.getBalance('0x3Ee4Ec52CfB109CB820c455657C294e0eCBdd003').then(console.log);
   const fromAddress = aAddress;
-  const tokenAddress = '0x9717208d0bbffa0951a4651713402ae62914c606';
+  const tokenAddress = '0xebF4daFF5C8BD6caC6F9FF5b5663E58a4EF2ca4b';
   // const fromAddress = '0x28458151eC48491e91022Db4EFe259358F45b30D';
   const minABI = [
     {

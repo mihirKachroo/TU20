@@ -8,6 +8,7 @@ import {
   Button,
   CardContent
 } from '@material-ui/core';
+// libraries which allow you to interact with a local or remote ethereum node, using a HTTP/IPC
 import Web3 from 'web3';
 
 const Erc = () => {
@@ -17,8 +18,10 @@ const Erc = () => {
     const web3 = new Web3(Web3.givenProvider);
     web3.eth.getBalance('0x3Ee4Ec52CfB109CB820c455657C294e0eCBdd003').then(console.log);
     const fromAddress = aAddress;
-    const tokenAddress = '0x9717208d0bbffa0951a4651713402ae62914c606';
+    const tokenAddress = '0xe4bF4513fEB22BCf1A1b5C11A3D173C843C346c1';
     // const fromAddress = '0x28458151eC48491e91022Db4EFe259358F45b30D';
+
+    // Application Binary Interface - Decodes contracts in and out of EVM
     const minABI = [
       {
         constant: true,
@@ -92,7 +95,7 @@ const Erc = () => {
 
 export default Erc;
 /*
-  const tokenAddress = '0x9717208d0bbffa0951a4651713402ae62914c606';
+  const tokenAddress = '0xebF4daFF5C8BD6caC6F9FF5b5663E58a4EF2ca4b';
   const toAddress = '0x3Ee4Ec52CfB109CB820c455657C294e0eCBdd003';
   const decimals = web3.utils.toBN(2);
   const amount = web3.utils.toBN(3);
