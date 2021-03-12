@@ -16,3 +16,4 @@ Won Second Place Prize of $2000 at TU20 2020 Cup, a two month long business, ent
 * Web3
 * Solidity 
 * Remix IDE
+* Also uses the Metamask chrome extension
